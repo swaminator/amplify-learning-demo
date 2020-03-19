@@ -34,7 +34,7 @@ const App = () => {
       await API.graphql(graphqlOperation(createTodo, {input: todo}))
     } catch (err) {
       console.log('error creating todo:', err)
-    }
+    } 
   }
 
   return (
